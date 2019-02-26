@@ -1,0 +1,7 @@
+applications:
+- name: typescript-express-starter
+  buildpack: https://github.com/cloudfoundry/nodejs-buildpack
+  memory: 256MB
+  timeout: 120
+  env:
+    NODE_ENV: production

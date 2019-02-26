@@ -1,0 +1,30 @@
+{
+    "defaultSeverity": "error",
+    "extends": [
+      "tslint:recommended",
+      "tslint-config-prettier"
+    ],
+    "jsRules": {},
+    "rules": {
+      "max-line-length": {
+        "options": [
+          200
+        ]
+      },
+      "forin": false,
+      "object-literal-key-quotes": false,
+      "variable-name": [
+        true,
+        "allow-leading-underscore",
+        "ban-keywords"
+      ],
+      "max-classes-per-file": false,
+      "ordered-imports": false,
+      "no-console": false,
+      "no-var-requires": false,
+      "object-literal-sort-keys": false,
+      "jsx-no-multiline-js": false,
+      "jsx-no-lambda": false
+    },
+    "rulesDirectory": []
+  }
