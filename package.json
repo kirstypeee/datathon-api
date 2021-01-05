@@ -36,7 +36,7 @@
     "typescript": "^3.1.6"
   },
   "dependencies": {
-    "axios": "^0.18.0",
+    "axios": "^0.21.1",
     "bluemix-autoscaling-agent": "*",
     "body-parser": "^1.18.3",
     "cfenv": "^1.0.4",
